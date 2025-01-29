@@ -38,8 +38,13 @@ h1 {
     letter-spacing: -2px;
 }
 
+h1 strong {
+    background: linear-gradient(#4fa7ff, #060524);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #posts {
-    display: flex;
     padding-top: 50px;
 }
 
@@ -52,11 +57,5 @@ h1 {
 #posts a{
     text-decoration: none;
     color: #EAE8FF;
-
 }
 
-h1 strong {
-    background: -webkit-linear-gradient(#4fa7ff #060524);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
