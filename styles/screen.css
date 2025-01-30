@@ -44,8 +44,15 @@ h1 strong {
     -webkit-text-fill-color: transparent;
 }
 
-#posts {
+#home_content {
     padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#posts {
+    flex: 2;
+    vertical-align: top;
 }
 
 #posts div {
@@ -54,8 +61,24 @@ h1 strong {
     border-radius: 20px;
 }
 
-#posts a{
+a{
     text-decoration: none;
     color: #EAE8FF;
 }
 
+#about_bar {
+    flex: 1;
+    border-left: 2px solid #060524;
+    padding: 15px;
+    vertical-align: top;
+}
+
+#about_bar p {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+}
+
+#john_pic_home {
+    border-radius: 20px;
+}
