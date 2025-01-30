@@ -67,12 +67,15 @@ p {
     display: inline-block;
     flex: 2;
     vertical-align: middle;
+    padding-right: 90px;
 }
 
 #posts div {
     margin: 30px;
     border: 3px solid #212431;
     border-radius: 20px;
+    padding: 20px;
+    line-height: 1.4em;
 }
 
 a{
