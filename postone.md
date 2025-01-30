@@ -1,6 +1,6 @@
 ---
 layout: layout.liquid
-title: The Latest
+title: An All New Breed of Space Cat
 ---
 
 <!--AI model used: Microsoft CoPilot. Prompt: "write a three paragraph blog post about finding a new breed of space cat on Mars from the perspective of a lone human interstellar explorer".-->
