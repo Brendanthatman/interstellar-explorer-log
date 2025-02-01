@@ -1,17 +1,22 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: "Poppins", serif;
+    font-weight: 250;
+    font-style: normal;
+    color: #DCE1E9;
+    background: #242038;
     padding: 0 40px;
     text-align: center;
-    line-height: 1.4em;
+    line-height: 1.7em;
+    letter-spacing: 1.5px;
 }
 
 nav {
     margin: 40px auto 0 auto;
     width: auto;
     border-radius: 50px;
-    background: #212431;
+    background: #ABDF75;
+    color: #242038;
+    opacity: 70%;
 }
 
 nav ul {
@@ -29,13 +34,13 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #242038;
     text-decoration: none;
     font-size: 1.2em;
 }
 
 nav ul li a:hover {
-    background: #4fa7ff;
+    background: #FF6B6B;
     border-radius: 50px;
 }
 
@@ -46,7 +51,7 @@ h1 {
 }
 
 h1 strong {
-    background: linear-gradient(#4fa7ff, #060524);
+    background: linear-gradient(#35605A, #FF6B6B);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -70,20 +75,20 @@ h2 {
 
 #posts div {
     margin: 30px;
-    border: 3px solid #212431;
+    border: 3px solid #ABDF75;
     border-radius: 20px;
     padding: 20px;
 }
 
 a{
     text-decoration: none;
-    color: #EAE8FF;
+    color: #DCE1E9;
 }
 
 #about_bar {
     display: inline-block;
     flex: 1;
-    border-left: 2px solid #060524;
+    border-left: 2px solid #ABDF75;
     padding: 0px 15px;
     vertical-align: middle;
 }
@@ -95,12 +100,40 @@ a{
 }
 
 #john_pic_home {
-    border-radius: 20px;
     margin: 30px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+#about {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+#about_text {
+    width: 600px;
+    flex: 2;
+    margin: 100px;
+    border: 3px solid #ABDF75;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#pic_about {
+    flex: 1;
 }
 
 .footer {
     margin-top: 100px;
-    background: #212431;
+    background: #ABDF75;
     border-radius: 50px;
+    color: #242038;
+    opacity: 70%;
+}
+
+.footer a {
+    color: #242038;
 }
